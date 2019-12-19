@@ -2,6 +2,7 @@ package day3;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class checkbox2 {
@@ -15,5 +16,11 @@ public class checkbox2 {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.seleniumeasy.com/test/basic-checkbox-demo.html");
         driver.findElement(By.id("check1")).click();
+        Thread.sleep(4000);
+        driver.findElement(By.id("check1")).click();
+
+
+
+
     }
 }

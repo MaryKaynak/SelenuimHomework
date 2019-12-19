@@ -19,7 +19,7 @@ public class checkbox1 {
             System.out.println("Success");
 
         }else{
-            System.out.println("Failure");
+            System.out.println("Fail");
         }
 
 
