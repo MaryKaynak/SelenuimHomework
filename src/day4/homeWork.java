@@ -15,5 +15,6 @@ public class homeWork {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\hilal\\TechnoStudy\\Selenium\\chromedriver\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.seleniumeasy.com/test/");
+
     }
 }
