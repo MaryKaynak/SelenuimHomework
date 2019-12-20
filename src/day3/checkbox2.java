@@ -32,8 +32,5 @@ public class checkbox2 {
             System.out.println("Failure!");
         }
 
-
-
-
     }
 }
