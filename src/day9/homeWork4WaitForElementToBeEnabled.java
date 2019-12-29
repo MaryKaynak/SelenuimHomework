@@ -19,7 +19,7 @@ public class homeWork4WaitForElementToBeEnabled {
 
         driver.findElement(By.xpath("//*[@id='input-example']/button")).click();
 
-        WebDriverWait wait = new WebDriverWait(driver, 15);
+        WebDriverWait wait = new WebDriverWait(driver, 5);
         try {
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#input-example > input[type=text]:not([disabled])")));
             System.out.println("Success!");

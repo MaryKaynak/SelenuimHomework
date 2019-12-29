@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.Select;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class homeWork2SignUpFormSubmissionParsing {
+public class homeWork2SignUpFormSubmission {
     public static void main(String[] args) throws InterruptedException, MalformedURLException {
 
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\hilal\\TechnoStudy\\Selenium\\chromedriver\\chromedriver.exe");
