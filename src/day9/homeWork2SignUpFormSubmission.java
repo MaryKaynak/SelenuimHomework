@@ -19,32 +19,24 @@ public class homeWork2SignUpFormSubmission {
         driver.manage().window().maximize();
 
         driver.findElement(By.id("username")).sendKeys("Hilalkaynak");
-        Thread.sleep(1000);
 
         driver.findElement(By.id("password")).sendKeys("aydinlikgelecek");
-        Thread.sleep(1000);
 
         driver.findElement(By.id("passwordrepeat")).sendKeys("aydinlikgelecek");
-        Thread.sleep(1000);
 
         driver.findElement(By.id("address")).sendKeys("148 Merselis Ave Clifton NJ");
-        Thread.sleep(1000);
 
         WebElement checkbox = driver.findElement(By.id("female"));
         checkbox.click();
-        Thread.sleep(1000);
 
         WebElement select = driver.findElement(By.name("select"));
         Select plan = new Select(select);
         plan.selectByIndex(2);
-        Thread.sleep(1000);
 
         WebElement agreement = driver.findElement(By.name("type"));
         agreement.click();
-        Thread.sleep(1000);
 
         driver.findElement(By.name("picture")).click();
-        Thread.sleep(1000);
 
         String url = driver.getCurrentUrl();
         parseUrl(driver, url);
